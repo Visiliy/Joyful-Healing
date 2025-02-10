@@ -9,9 +9,10 @@ def close_callback(route, websockets):
 
 
 @eel.expose
-def hello():
+def hello(res):
     global count
     print("Hello, Sonya and Lera!")
+    print(res)
     mixer.init()
     mixer.music.load("music/Uspokaivayushhaya_muzyka_-_lejjta_56569736.mp3")
     if count % 2 == 0:
