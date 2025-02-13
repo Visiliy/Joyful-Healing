@@ -1,4 +1,7 @@
 import eel # подключаем библиотеку eel
+import cv2
+import mediapipe
+import numpy as np
 from pygame import mixer # из библиотеки pygame подкльчаем модуль mixer
 
 count = 0 # инициализируем счётчик для подсчёта количества нажатий.
